@@ -85,6 +85,9 @@ line-height: 2.92;
 text-transform: uppercase;
 text-decoration: none;
 }
+.nav-link:hover {
+  font-weight: 700;
+}
 .services {
   padding-top: 110px;
   padding-bottom: 118px;
@@ -124,6 +127,7 @@ letter-spacing: -0.35px;
 .contact-us-title {
   margin-bottom: 114px;
   color: #FFF;
+  text-align: center;
 font-size: 40px;
 font-weight: 700;
 letter-spacing: -1px;
