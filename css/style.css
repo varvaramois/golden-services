@@ -77,8 +77,7 @@ ul {
   gap: 10px;
 }
 .nav-link {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
   color: var(--accent-color);
 font-size: 14px;
 line-height: 2.92;
@@ -121,9 +120,6 @@ letter-spacing: -0.35px;
   padding-top: 92px;
   padding-bottom: 115px;
 }
-/* .contact-us-form  {
-  /* display: flex; */
-/* } */ 
 .contact-us-title {
   margin-bottom: 114px;
   color: #FFF;
@@ -133,12 +129,40 @@ font-weight: 700;
 letter-spacing: -1px;
 text-transform: uppercase;
 }
+.contact-us-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.contact-us-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.contact-us-input {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  display: flex;
+  gap: 28px;
+  padding: 12px 20px 21px;
+  width: 455px;
+}
 .contact-us-input::placeholder, .contact-us-textarea::placeholder {
   color: #BBB;
-font-size: 14px;
-font-weight: 700;
-letter-spacing: -0.35px;
 text-transform: uppercase; 
+}
+.contact-us-textarea {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-left: 22px;
+  resize: none;
+  height: 212px;
+  width: 455px;
 }
 .contact-us-btn {
   display: block;
